@@ -1,0 +1,17 @@
+{
+	"fontFamily": "微软雅黑",
+	"fontSize": 10,
+
+	"dbHost": "10.82.12.134",
+	"dbPort": 3306,
+
+	"dbTimeout": 3,
+
+	"host": "10.82.12.134",
+	"port": 3333,
+	"bufSize": 20480,
+
+	"taskBufSize": 2,
+
+	"darkStyle": true
+}

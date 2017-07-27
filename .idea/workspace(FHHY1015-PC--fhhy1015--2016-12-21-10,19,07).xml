@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9a59b46-ec04-44cc-b635-0e40f78d6837" name="Default" comment="" />
+    <ignored path="FHTrader.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FHTrader$fhService.coverage" NAME="fhService Coverage Results" MODIFIED="1481531814283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHTrader$fhStopServer.coverage" NAME="fhStopServer Coverage Results" MODIFIED="1474270028416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHTrader$eventEngine.coverage" NAME="eventEngine Coverage Results" MODIFIED="1475034086452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHTrader$fhUpdateTick_bak.coverage" NAME="fhUpdateTick_bak Coverage Results" MODIFIED="1480391143573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHTrader$fhUpdateServer.coverage" NAME="fhUpdateServer Coverage Results" MODIFIED="1480469709303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHTrader$fhUpdateTick.coverage" NAME="fhUpdateTick Coverage Results" MODIFIED="1480398330634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHTrader$fhUtils.coverage" NAME="fhUtils Coverage Results" MODIFIED="1474249824633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHTrader$fhTraderMain.coverage" NAME="fhTraderMain Coverage Results" MODIFIED="1482284699343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="FHTrader" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="fhTraderMain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fhTraderMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fhService.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fhService.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.315508">
+              <caret line="567" column="76" selection-start-line="567" selection-start-column="76" selection-end-line="567" selection-end-column="76" />
+              <folding>
+                <element signature="e#148#159#0" expanded="true" />
+                <marker date="1481867484017" expanded="true" signature="6013:6083" placeholder="select produ... products_info" />
+                <marker date="1481867484017" expanded="true" signature="7648:7713" placeholder="select taskn... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="14709:14771" placeholder="select autho... userverify" />
+                <marker date="1481867484017" expanded="true" signature="21979:22228" placeholder="insert into task_flow_present... " />
+                <marker date="1481867484017" expanded="true" signature="25776:25959" placeholder="insert into task_flow_present... " />
+                <marker date="1481867484017" expanded="true" signature="36631:36786" placeholder="select state... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="37517:37659" placeholder="select costp... products_details" />
+                <marker date="1481867484017" expanded="true" signature="38347:38427" placeholder="delete from " />
+                <marker date="1481867484017" expanded="true" signature="40021:40152" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="40386:40500" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="41260:41391" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="41625:41739" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="42478:42628" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="43094:43285" placeholder="insert into products_details... " />
+                <marker date="1481867484017" expanded="true" signature="43629:43710" placeholder="select costp... products_details" />
+                <marker date="1481867484017" expanded="true" signature="44230:44326" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="44726:44789" placeholder="delete from " />
+                <marker date="1481867484017" expanded="true" signature="45137:45233" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="45541:45678" placeholder="insert into products_details... " />
+                <marker date="1481867484017" expanded="true" signature="46090:46163" placeholder="select balan... products_account" />
+                <marker date="1481867484017" expanded="true" signature="46442:46517" placeholder="update produ... " />
+                <marker date="1481867484017" expanded="true" signature="47214:47284" placeholder="select margi... parameter_futures" />
+                <marker date="1481867484017" expanded="true" signature="48394:48438" placeholder="select * fro... products_info" />
+                <marker date="1481867484017" expanded="true" signature="49294:49372" placeholder="select fundm... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="49875:49940" placeholder="select fundm... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="50998:51048" placeholder="select * fro... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="51136:51230" placeholder="select * fro... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="53816:53876" placeholder="select * fro... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="56723:56787" placeholder="select state... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="57136:57205" placeholder="select taskv... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="57628:57740" placeholder="update task_... " />
+                <marker date="1481867484017" expanded="true" signature="58193:58288" placeholder="update task_... " />
+                <marker date="1481867484017" expanded="true" signature="58617:58683" placeholder="update task_... " />
+                <marker date="1481867484017" expanded="true" signature="59048:59114" placeholder="update task_... " />
+                <marker date="1481867484017" expanded="true" signature="61614:61679" placeholder="select remar... task_flow_present" />
+                <marker date="1481867484017" expanded="true" signature="62031:62098" placeholder="update task_... " />
+                <marker date="1481867484017" expanded="true" signature="62460:62590" placeholder="select produ... products_account" />
+                <marker date="1481867484017" expanded="true" signature="63396:63526" placeholder="select produ... products_account" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fhConstant.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fhConstant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="e#131#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="windGateway.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/windGateway/windGateway.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="212" column="28" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fhUiDataCentre.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fhUiDataCentre.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.133333">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fhUiTrade.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fhUiTrade.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="669" column="71" selection-start-line="669" selection-start-column="27" selection-end-line="669" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fhDb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fhDb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="127" column="82" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+              <folding>
+                <marker date="1481867484000" expanded="true" signature="2949:3011" placeholder="select autho... userverify" />
+                <marker date="1481867484000" expanded="true" signature="3573:3643" placeholder="select produ... products_info" />
+                <marker date="1481867484000" expanded="true" signature="4059:4110" placeholder="select produ... products_info" />
+                <marker date="1481867484000" expanded="true" signature="4681:4744" placeholder="select produ... products_info" />
+                <marker date="1481867484000" expanded="true" signature="4811:4874" placeholder="select produ... products_info" />
+                <marker date="1481867484000" expanded="true" signature="5350:5526" placeholder="select produ... products_info" />
+                <marker date="1481867484000" expanded="true" signature="5977:6069" placeholder="select accou... products_account" />
+                <marker date="1481867484000" expanded="true" signature="7003:7140" placeholder="select produ... products_details" />
+                <marker date="1481867484000" expanded="true" signature="7933:8053" placeholder="select produ... products_details" />
+                <marker date="1481867484000" expanded="true" signature="9104:9293" placeholder="select produ... products_details" />
+                <marker date="1481867484000" expanded="true" signature="10329:10501" placeholder="select produ... products_details" />
+                <marker date="1481867484000" expanded="true" signature="11742:11867" placeholder="select produ... products_account" />
+                <marker date="1481867484000" expanded="true" signature="12565:12673" placeholder="select produ... products_account" />
+                <marker date="1481867484000" expanded="true" signature="13548:13599" placeholder="SELECT * FRO... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="13712:13754" placeholder="SELECT * FRO... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="13882:13937" placeholder="SELECT * FRO... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="14056:14102" placeholder="SELECT * FRO... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="14524:14546" placeholder="SELECT * FRO... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="15071:15160" placeholder="select direc... products_details" />
+                <marker date="1481867484000" expanded="true" signature="16054:16115" placeholder="SELECT * FRO... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="16228:16280" placeholder="SELECT * FRO... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="16408:16471" placeholder="SELECT * FRO... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="16590:16644" placeholder="SELECT * FRO... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="17066:17092" placeholder="SELECT * FRO... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="17607:17806" placeholder="update produ... " />
+                <marker date="1481867484000" expanded="true" signature="18630:18686" placeholder="select suffi... exchange_mapping" />
+                <marker date="1481867484000" expanded="true" signature="19050:19115" placeholder="select prefi... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="19467:19543" placeholder="select balan... products_account" />
+                <marker date="1481867484000" expanded="true" signature="19777:19866" placeholder="update produ... " />
+                <marker date="1481867484000" expanded="true" signature="20148:20245" placeholder="update produ... " />
+                <marker date="1481867484000" expanded="true" signature="20547:20764" placeholder="insert into products_info... " />
+                <marker date="1481867484000" expanded="true" signature="21852:21922" placeholder="select * fro... products_account" />
+                <marker date="1481867484000" expanded="true" signature="22099:22166" placeholder="insert into products_account... " />
+                <marker date="1481867484000" expanded="true" signature="22451:22525" placeholder="select * fro... products_account" />
+                <marker date="1481867484000" expanded="true" signature="22702:22769" placeholder="insert into products_account... " />
+                <marker date="1481867484000" expanded="true" signature="23234:23292" placeholder="SELECT secid... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="23624:23679" placeholder="SELECT secid... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="24267:24343" placeholder="SELECT futur... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="24617:24717" placeholder="SELECT futur... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="24884:24960" placeholder="SELECT futur... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="25548:25623" placeholder="SELECT futur... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="26094:26131" placeholder="SELECT * FRO... sec_list" />
+                <marker date="1481867484000" expanded="true" signature="26429:26476" placeholder="SELECT * FRO... futures_list" />
+                <marker date="1481867484000" expanded="true" signature="27113:27183" placeholder="select volum... products_details" />
+                <marker date="1481867484000" expanded="true" signature="27555:27642" placeholder="select volum... products_details" />
+                <marker date="1481867484000" expanded="true" signature="28076:28118" placeholder="DELETE FROM " />
+                <marker date="1481867484000" expanded="true" signature="28650:28716" placeholder="select * fro... products_details" />
+                <marker date="1481867484000" expanded="true" signature="29151:29217" placeholder="select conte... config" />
+                <marker date="1481867484000" expanded="true" signature="29529:29598" placeholder="select conte... config" />
+                <marker date="1481867484000" expanded="true" signature="30027:30095" placeholder="update confi... " />
+                <marker date="1481867484000" expanded="true" signature="30320:30394" placeholder="insert into config... " />
+                <marker date="1481867484000" expanded="true" signature="30627:30698" placeholder="update confi... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fhErrorCode.py" />
+        <option value="$PROJECT_DIR$/fhLog.log" />
+        <option value="$PROJECT_DIR$/fhLog2016-09-14.log" />
+        <option value="$PROJECT_DIR$/eventEngine.py" />
+        <option value="$PROJECT_DIR$/fhFunc.py" />
+        <option value="$PROJECT_DIR$/fhUiCancelled.py" />
+        <option value="$PROJECT_DIR$/fhTraderMain.py" />
+        <option value="$PROJECT_DIR$/fhGateway.py" />
+        <option value="$PROJECT_DIR$/eventType.py" />
+        <option value="$PROJECT_DIR$/fhUtils.py" />
+        <option value="$PROJECT_DIR$/setip.py" />
+        <option value="$PROJECT_DIR$/fhUiBase.py" />
+        <option value="$PROJECT_DIR$/windGateway/windGateway.py" />
+        <option value="$PROJECT_DIR$/fhRetCode.py" />
+        <option value="$PROJECT_DIR$/fhMainEngine.py" />
+        <option value="$PROJECT_DIR$/fhUpdateTick_bak.py" />
+        <option value="$PROJECT_DIR$/fhUpdateTick.py" />
+        <option value="$PROJECT_DIR$/fhUiProductManage.py" />
+        <option value="$PROJECT_DIR$/fhStopServer.py" />
+        <option value="$PROJECT_DIR$/simuGateway/simuGateway.py" />
+        <option value="$PROJECT_DIR$/fhConstant.py" />
+        <option value="$PROJECT_DIR$/fhUiTrade.py" />
+        <option value="$PROJECT_DIR$/fhUiMain.py" />
+        <option value="$PROJECT_DIR$/setting.json" />
+        <option value="$PROJECT_DIR$/fhUpdateServer.py" />
+        <option value="$PROJECT_DIR$/fhService.py" />
+        <option value="$PROJECT_DIR$/fhDb.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/fhUiDataCentre.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="113" />
+    <option name="y" value="71" />
+    <option name="width" value="1780" />
+    <option name="height" value="969" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FHTrader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FHTrader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FHTrader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FHTrader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FHTrader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windGateway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FHTrader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FHTrader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simuGateway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.fhTraderMain">
+    <configuration default="false" name="fhTraderMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fhTraderMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fhService" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fhService.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fhUpdateTick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fhUpdateTick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fhUpdateTick_bak" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\updatePan\百度云同步盘\workCode\01-PycharmProjects\FHTrader\fhUpdateTick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fhUpdateServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fhUpdateServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FHTrader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.fhTraderMain" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fhService" />
+      <item index="2" class="java.lang.String" itemvalue="Python.fhUpdateTick" />
+      <item index="3" class="java.lang.String" itemvalue="Python.fhUpdateTick_bak" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fhUpdateServer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.fhTraderMain" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fhService" />
+        <item index="2" class="java.lang.String" itemvalue="Python.fhUpdateServer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.fhUpdateTick" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fhUpdateTick_bak" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9a59b46-ec04-44cc-b635-0e40f78d6837" name="Default" comment="" />
+      <created>1473240363582</created>
+      <option name="number" value="Default" />
+      <updated>1473240363582</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="113" y="71" width="1780" height="969" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2148526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27906978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fhConstant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhRetCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUpdateServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhDb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="243" column="45" selection-start-line="243" selection-start-column="45" selection-end-line="243" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="626" column="29" selection-start-line="626" selection-start-column="29" selection-end-line="626" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simuGateway/simuGateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhTraderMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhGateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhStopServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiDataCentre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="274" column="31" selection-start-line="274" selection-start-column="31" selection-end-line="274" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhMainEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhDb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="243" column="45" selection-start-line="243" selection-start-column="45" selection-end-line="243" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="626" column="29" selection-start-line="626" selection-start-column="29" selection-end-line="626" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simuGateway/simuGateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhTraderMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhGateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhStopServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiDataCentre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="274" column="31" selection-start-line="274" selection-start-column="31" selection-end-line="274" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhMainEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUpdateServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33287102">
+          <caret line="1617" column="8" selection-start-line="1617" selection-start-column="8" selection-end-line="1617" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8989247">
+          <caret line="845" column="159" selection-start-line="845" selection-start-column="159" selection-end-line="845" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Wind/Wind.NET.Client/WindNET/bin/WindPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8725314">
+          <caret line="390" column="38" selection-start-line="390" selection-start-column="38" selection-end-line="390" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52021855">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhGateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhMainEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0908142">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhRetCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myconfig.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="776" column="0" selection-start-line="776" selection-start-column="0" selection-end-line="776" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhStopServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.366667">
+          <caret line="117" column="19" selection-start-line="116" selection-start-column="21" selection-end-line="117" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUpdateTick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="454" column="41" selection-start-line="454" selection-start-column="41" selection-end-line="454" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/884504192/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28614458">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUpdateServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33279744">
+          <caret line="358" column="8" selection-start-line="358" selection-start-column="8" selection-end-line="358" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiProductManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029141104">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029141104">
+          <caret line="221" column="30" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/windGateway/windGateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="212" column="28" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#131#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhTraderMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhDb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="82" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+          <folding>
+            <marker date="1481867484000" expanded="true" signature="2949:3011" placeholder="select autho... userverify" />
+            <marker date="1481867484000" expanded="true" signature="3573:3643" placeholder="select produ... products_info" />
+            <marker date="1481867484000" expanded="true" signature="4059:4110" placeholder="select produ... products_info" />
+            <marker date="1481867484000" expanded="true" signature="4681:4744" placeholder="select produ... products_info" />
+            <marker date="1481867484000" expanded="true" signature="4811:4874" placeholder="select produ... products_info" />
+            <marker date="1481867484000" expanded="true" signature="5350:5526" placeholder="select produ... products_info" />
+            <marker date="1481867484000" expanded="true" signature="5977:6069" placeholder="select accou... products_account" />
+            <marker date="1481867484000" expanded="true" signature="7003:7140" placeholder="select produ... products_details" />
+            <marker date="1481867484000" expanded="true" signature="7933:8053" placeholder="select produ... products_details" />
+            <marker date="1481867484000" expanded="true" signature="9104:9293" placeholder="select produ... products_details" />
+            <marker date="1481867484000" expanded="true" signature="10329:10501" placeholder="select produ... products_details" />
+            <marker date="1481867484000" expanded="true" signature="11742:11867" placeholder="select produ... products_account" />
+            <marker date="1481867484000" expanded="true" signature="12565:12673" placeholder="select produ... products_account" />
+            <marker date="1481867484000" expanded="true" signature="13548:13599" placeholder="SELECT * FRO... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="13712:13754" placeholder="SELECT * FRO... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="13882:13937" placeholder="SELECT * FRO... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="14056:14102" placeholder="SELECT * FRO... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="14524:14546" placeholder="SELECT * FRO... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="15071:15160" placeholder="select direc... products_details" />
+            <marker date="1481867484000" expanded="true" signature="16054:16115" placeholder="SELECT * FRO... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="16228:16280" placeholder="SELECT * FRO... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="16408:16471" placeholder="SELECT * FRO... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="16590:16644" placeholder="SELECT * FRO... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="17066:17092" placeholder="SELECT * FRO... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="17607:17806" placeholder="update produ... " />
+            <marker date="1481867484000" expanded="true" signature="18630:18686" placeholder="select suffi... exchange_mapping" />
+            <marker date="1481867484000" expanded="true" signature="19050:19115" placeholder="select prefi... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="19467:19543" placeholder="select balan... products_account" />
+            <marker date="1481867484000" expanded="true" signature="19777:19866" placeholder="update produ... " />
+            <marker date="1481867484000" expanded="true" signature="20148:20245" placeholder="update produ... " />
+            <marker date="1481867484000" expanded="true" signature="20547:20764" placeholder="insert into products_info... " />
+            <marker date="1481867484000" expanded="true" signature="21852:21922" placeholder="select * fro... products_account" />
+            <marker date="1481867484000" expanded="true" signature="22099:22166" placeholder="insert into products_account... " />
+            <marker date="1481867484000" expanded="true" signature="22451:22525" placeholder="select * fro... products_account" />
+            <marker date="1481867484000" expanded="true" signature="22702:22769" placeholder="insert into products_account... " />
+            <marker date="1481867484000" expanded="true" signature="23234:23292" placeholder="SELECT secid... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="23624:23679" placeholder="SELECT secid... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="24267:24343" placeholder="SELECT futur... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="24617:24717" placeholder="SELECT futur... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="24884:24960" placeholder="SELECT futur... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="25548:25623" placeholder="SELECT futur... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="26094:26131" placeholder="SELECT * FRO... sec_list" />
+            <marker date="1481867484000" expanded="true" signature="26429:26476" placeholder="SELECT * FRO... futures_list" />
+            <marker date="1481867484000" expanded="true" signature="27113:27183" placeholder="select volum... products_details" />
+            <marker date="1481867484000" expanded="true" signature="27555:27642" placeholder="select volum... products_details" />
+            <marker date="1481867484000" expanded="true" signature="28076:28118" placeholder="DELETE FROM " />
+            <marker date="1481867484000" expanded="true" signature="28650:28716" placeholder="select * fro... products_details" />
+            <marker date="1481867484000" expanded="true" signature="29151:29217" placeholder="select conte... config" />
+            <marker date="1481867484000" expanded="true" signature="29529:29598" placeholder="select conte... config" />
+            <marker date="1481867484000" expanded="true" signature="30027:30095" placeholder="update confi... " />
+            <marker date="1481867484000" expanded="true" signature="30320:30394" placeholder="insert into config... " />
+            <marker date="1481867484000" expanded="true" signature="30627:30698" placeholder="update confi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simuGateway/simuGateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7715736">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiTrade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="669" column="71" selection-start-line="669" selection-start-column="27" selection-end-line="669" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhUiDataCentre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.133333">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhConstant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fhService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.315508">
+          <caret line="567" column="76" selection-start-line="567" selection-start-column="76" selection-end-line="567" selection-end-column="76" />
+          <folding>
+            <element signature="e#148#159#0" expanded="true" />
+            <marker date="1481867484017" expanded="true" signature="6013:6083" placeholder="select produ... products_info" />
+            <marker date="1481867484017" expanded="true" signature="7648:7713" placeholder="select taskn... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="14709:14771" placeholder="select autho... userverify" />
+            <marker date="1481867484017" expanded="true" signature="21979:22228" placeholder="insert into task_flow_present... " />
+            <marker date="1481867484017" expanded="true" signature="25776:25959" placeholder="insert into task_flow_present... " />
+            <marker date="1481867484017" expanded="true" signature="36631:36786" placeholder="select state... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="37517:37659" placeholder="select costp... products_details" />
+            <marker date="1481867484017" expanded="true" signature="38347:38427" placeholder="delete from " />
+            <marker date="1481867484017" expanded="true" signature="40021:40152" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="40386:40500" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="41260:41391" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="41625:41739" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="42478:42628" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="43094:43285" placeholder="insert into products_details... " />
+            <marker date="1481867484017" expanded="true" signature="43629:43710" placeholder="select costp... products_details" />
+            <marker date="1481867484017" expanded="true" signature="44230:44326" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="44726:44789" placeholder="delete from " />
+            <marker date="1481867484017" expanded="true" signature="45137:45233" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="45541:45678" placeholder="insert into products_details... " />
+            <marker date="1481867484017" expanded="true" signature="46090:46163" placeholder="select balan... products_account" />
+            <marker date="1481867484017" expanded="true" signature="46442:46517" placeholder="update produ... " />
+            <marker date="1481867484017" expanded="true" signature="47214:47284" placeholder="select margi... parameter_futures" />
+            <marker date="1481867484017" expanded="true" signature="48394:48438" placeholder="select * fro... products_info" />
+            <marker date="1481867484017" expanded="true" signature="49294:49372" placeholder="select fundm... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="49875:49940" placeholder="select fundm... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="50998:51048" placeholder="select * fro... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="51136:51230" placeholder="select * fro... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="53816:53876" placeholder="select * fro... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="56723:56787" placeholder="select state... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="57136:57205" placeholder="select taskv... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="57628:57740" placeholder="update task_... " />
+            <marker date="1481867484017" expanded="true" signature="58193:58288" placeholder="update task_... " />
+            <marker date="1481867484017" expanded="true" signature="58617:58683" placeholder="update task_... " />
+            <marker date="1481867484017" expanded="true" signature="59048:59114" placeholder="update task_... " />
+            <marker date="1481867484017" expanded="true" signature="61614:61679" placeholder="select remar... task_flow_present" />
+            <marker date="1481867484017" expanded="true" signature="62031:62098" placeholder="update task_... " />
+            <marker date="1481867484017" expanded="true" signature="62460:62590" placeholder="select produ... products_account" />
+            <marker date="1481867484017" expanded="true" signature="63396:63526" placeholder="select produ... products_account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

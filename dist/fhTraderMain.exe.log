@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "fhTraderMain.py", line 18, in <module>
+  File "fhUiMain.pyo", line 14, in <module>
+  File "psutil\__init__.pyo", line 124, in <module>
+  File "psutil\_pswindows.pyo", line 15, in <module>
+  File "psutil\_psutil_windows.pyo", line 12, in <module>
+  File "psutil\_psutil_windows.pyo", line 10, in __load
+ImportError: DLL load failed: 操作系统无法运行 %1。
+Traceback (most recent call last):
+  File "fhTraderMain.py", line 18, in <module>
+  File "fhUiMain.pyo", line 14, in <module>
+  File "psutil\__init__.pyo", line 124, in <module>
+  File "psutil\_pswindows.pyo", line 15, in <module>
+  File "psutil\_psutil_windows.pyo", line 12, in <module>
+  File "psutil\_psutil_windows.pyo", line 10, in __load
+ImportError: DLL load failed: 操作系统无法运行 %1。
